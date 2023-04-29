@@ -8,6 +8,7 @@ while s in 'YESyes':
         if num==n:
             c+=1
             print('YOU WON IN:',c,'TURNS')
+            print('YOUR SCORE IS:',(100-c))
             break
         elif num<=n:
             if (n-num)<=10:
