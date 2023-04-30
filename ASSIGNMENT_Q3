@@ -11,46 +11,46 @@ while s in 'YESyes':
         rolls.append(dice)
     for i in rolls:
         if i==1:
-            print("/---------\\n"
+            print("---------\n"
             "|         |\n"
             "|    ",chr(11044),"    |\n"
             "|         |\n"
-             "\---------/",sep='')
+             "---------",sep='')
             continue
         elif i==2:
-            print("/---------\\n"
+            print("---------\n"
             "|",chr(11044),"        |\n"
             "|         |\n"
             "|         ",chr(11044),"|\n"
-             "\---------/",sep='')
+             "---------",sep='')
             continue
         elif i==3:
-            print("/---------\\n"
+            print("---------\n"
             "|",chr(11044),"        |\n"
             "|    ",chr(11044),"    |\n"
             "|        ",chr(11044),"|\n"
-             "\---------/",sep='')
+             "---------",sep='')
             continue
         elif i==4:
-            print("/---------\\n"
+            print("---------\n"
             "|",chr(11044),"       ",chr(11044),"|\n"
             "|         |\n"
             "|",chr(11044),"       ",chr(11044),"|\n"
-             "\---------/",sep='')
+             "---------",sep='')
             continue
         elif i==5:
-            print("/---------\\n"
+            print("---------\n"
             "|",chr(11044),"       ",chr(11044),"|\n"
             "|    ",chr(11044),"    |\n"
             "|",chr(11044),"       ",chr(11044),"|\n"
-             "\---------/",sep='')
+             "---------",sep='')
             continue
         elif i==6:
-            print("/---------\\n"
+            print("---------\n"
             "|",chr(11044),"       ",chr(11044),"|\n"
             "|",chr(11044),"       ",chr(11044),"|\n"
             "|",chr(11044),"       ",chr(11044),"|\n"
-             "\---------/",sep='')
+             "---------",sep='')
             continue
     print(f'YOU ROLLED A TOTAL OF:{sum(rolls)}'.rjust(55))
     s=input(f'DO YOU WANT TO ROLL AGAIN?(Y/N)'.rjust(55))
